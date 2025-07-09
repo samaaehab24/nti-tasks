@@ -1,0 +1,163 @@
+/*reset style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*global style*/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+    padding: 7% 4%;
+}
+
+.float-right {
+    float: right;
+
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.overlay {
+    background-color: #00000087;
+    height: 100%;
+
+}
+
+.li-text {
+    color: #949097;
+}
+
+/*custom style*/
+.logo {
+    font-size: 30px;
+
+}
+
+.logo span {
+
+    color: #fe9c53;
+}
+
+nav {
+    padding: 1% 0%;
+}
+
+nav ul {
+    width: 33%;
+}
+
+nav li {
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.banner {
+    background-image: url(../images/pexels-pixabay-290275.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.float-left .logo {
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+
+.float-left h3 {
+    width: 100%;
+    margin-bottom: 4%;
+
+}
+
+hr {
+    width: 4em;
+    margin-bottom: 4%;
+}
+
+.float-left p {
+    font-size: 16px;
+    font-weight: 1px;
+    margin-bottom: 4%;
+}
+
+.float-left button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 2% 7%;
+    color: white;
+}
+
+.overlay .float-right {
+    width: 30%;
+    padding: 6%;
+    background-color: white;
+    margin-top: 8%;
+    border-radius: 40px;
+}
+
+input {
+    margin-bottom: 8%;
+    border: none;
+    border-bottom: 1px solid #949097;
+    outline: none;
+    width: 100%;
+
+
+}
+
+.float-right h3 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.float-right h3 span {
+    color: #fe9c53;
+
+}
+
+.float-right button {
+    color: white;
+    background-color: #fe9c53;
+    width: 100%;
+    border: none;
+    padding: 5% 0%;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+/*custom style*/

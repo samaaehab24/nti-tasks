@@ -1,0 +1,596 @@
+/*reset style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/*global style*/
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.float-left {
+    float: left;
+    width: 50%;
+    padding: 7% 4%;
+}
+
+.float-right {
+    float: right;
+
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.text-white {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.overlay {
+    background-color: #00000087;
+    height: 100%;
+
+}
+
+.li-text {
+    color: #949097;
+}
+.bg-orange{
+    background-color: #ff6600;
+}
+.bg-color{
+    background-color: #333333;
+}
+/*custom style*/
+.logo {
+    font-size: 30px;
+
+}
+
+.logo span {
+
+    color: #fe9c53;
+}
+
+nav {
+    width: 100%;
+    padding: 1% 0%;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+}
+
+nav ul {
+    width: 33%;
+}
+
+nav li {
+    margin-left: 4%;
+    margin-top: 1%;
+}
+
+.banner {
+    background-image: url(../images/buildings-8294360_960_720.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+.banner .container{
+    margin-top: 5%;
+}
+
+.float-left .logo {
+    font-size: 50px;
+    margin-bottom: 1%;
+}
+
+.float-left h3 {
+    width: 100%;
+    margin-bottom: 4%;
+
+}
+
+.float-left hr {
+    width: 4em;
+    margin-bottom: 4%;
+}
+
+.float-left p {
+    font-size: 16px;
+    font-weight: 1px;
+    margin-bottom: 4%;
+}
+
+.float-left button {
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 2% 7%;
+    color: white;
+}
+
+.overlay .float-right {
+    width: 30%;
+    padding: 6%;
+    background-color: white;
+    margin-top: 8%;
+    border-radius: 40px;
+}
+
+input {
+    margin-bottom: 8%;
+    border: none;
+    border-bottom: 1px solid #949097;
+    outline: none;
+    width: 100%;
+
+
+}
+
+.float-right h3 {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+.float-right h3 span {
+    color: #fe9c53;
+
+}
+
+.float-right button {
+    color: white;
+    background-color: #fe9c53;
+    width: 100%;
+    border: none;
+    padding: 5% 0%;
+    font-size: 16px;
+
+    cursor: pointer;
+}
+/*social*/
+.container2{
+    width: 80%;
+    margin: auto;
+
+}
+.container2 .float-left{
+    padding: 1%;
+    width: 40%;
+}
+.container2 p{
+    color: #949097;
+    font-size: 14px;
+}
+.container2 .float-right{
+    width: 40%;
+}
+.container2 i{
+    color: #c3c2c4;
+    font-size: 30px;
+    margin: auto;
+    padding: 2%;
+    padding-right:3%;
+    margin-top: 5%;
+
+}
+.social hr{
+    width: 100%;
+    padding: 0;
+}/*end social*/
+/*Tabs*/
+
+.tabs-one{
+    width: 19%;
+    border-radius: 5px;
+    margin-left: -2%;
+
+}
+.tabs-one div{
+    padding: 35%;
+font-size: 13px;
+border-bottom: 1px solid white;
+font-weight:bolder;
+}
+.tabs-two h3{
+font-weight: bold;
+margin: 2% 0%;
+}
+.tabs-two p{
+    margin: 7% 0%;
+    color:#848385
+}
+.tabs-two button{
+    color: white;
+    background-color: #ff6600;
+    border: none;
+    padding: 3% 7% ;
+    font-weight: bold;
+}
+.tabs-three{
+    width: 30%;
+
+}
+.tabs-three img{
+    width: 150%;
+
+}
+
+/*end tabs*/
+/*list*/
+.list .float-left {
+    width: 40%;
+}
+.list .float-right{
+width: 40%;
+}
+.list .float-left img {
+    width: 160%;
+    margin: 5% -5%;
+
+    box-shadow: 0px 7px 15px 5px rgb(87, 87, 87);
+}
+.list .float-right h3{
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 3%;
+
+}
+.list .float-right hr{
+    border-color: #ff6600;
+width: 15%;
+margin-bottom: 3%;
+}
+.list .float-right .p1{
+    color:#848385;
+    margin-bottom: 4%;
+}
+.list .float-right i{
+
+    color: #ff6600;
+    border: 2px solid #ff6600;
+    padding: 1%;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    padding-top: 2%;
+    font-size: 15px;
+    
+
+}
+.list .p2{
+margin-left: 10%;
+margin-top: 2%;
+margin-bottom: 2%;
+color: #848385;
+}
+.list h5{
+    margin-top: 6%;
+    font-weight: bold;
+    margin-left: 10%;
+
+
+}
+/*end list*/
+/*.standard .float-left{
+    width: 60%;
+padding: 2%;
+margin-top: 15%;
+margin-left: 2%;
+}
+.standard .float-left h3{
+    font-weight: bold;
+}
+.standard .float-left hr{
+    border-color: #fe9c53;
+        width: 15%;
+        margin-bottom: 3%;
+}
+.standard .float-left p{
+    color: #848385;
+
+}
+.standard .float-right {
+    width: 35%;
+    padding: 2%;
+    margin-top: 15%;
+}
+
+.standard .float-right img {
+    width: 100%;
+    
+height: auto;
+    box-shadow: 0px 7px 15px 5px rgb(87, 87, 87);   }*/
+    
+
+    .pricing{
+        background-color:#eae8e8 ;
+    }
+.pricing .container{
+    overflow: hidden;
+    text-align: center;
+}
+.card{
+    width: 30%;
+    margin: 7% 1.5%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    text-align: center;
+box-shadow: 0px 4px 10px 5px rgb(183, 182, 182);
+
+}
+.c2{
+
+    background-color: #f9f9f9;
+}
+.pricing h1{
+font-weight: normal;
+margin: 5%;
+margin-bottom: 1%;
+}
+.pricing hr{
+    width: 6%;
+    border-color: #ff6600;
+    margin-left: 46%;
+}
+.pricing p{
+    color: #848385;
+    margin: 2%;
+}
+.c1{
+    padding: 0%;
+}
+.c1 h4{
+    padding: 4%;
+margin-top: 0%;
+background-color: #121212;
+color: white;
+border-bottom:1px solid white;
+
+}
+.pricing .price{
+    background-color: #121212;
+    border-bottom: 4px solid #ff6600;
+    color: white;
+    padding: 5%;
+}
+.pricing .price h3{
+    font-size: 80px;
+    font-weight: bolder;
+}
+.pricing .price h3 span{
+    font-size: 30px;
+}
+
+.pricing .price p{
+    color: #848385;
+    font-style: italic;
+}
+.pricing .paragraphs p{
+    margin: 6%;
+
+}
+.c2, .c3{
+    padding: 0%;
+}
+.c2 h4 {
+    padding: 4%;
+    margin-top: 0%;
+    background-color: #121212;
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+.c3 h4 {
+    padding: 4%;
+    margin-top: 0%;
+    background-color: #121212;
+    color: white;
+    border-bottom: 1px solid white;
+
+}
+.c2 .popular{
+    background-color:#ff6600;
+    color: white;
+    padding: 3%;
+    padding-top: 2%;
+    font-weight: bold;
+
+}
+.c1, .c3{
+    margin-top: 10%;
+}
+.custom img{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+}
+.custom .card {
+    width: 30%;
+    margin: 7% 1.5%;
+    padding: 20px;
+    border: none;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 0px 0px 0px black;
+
+}
+.custom h1{
+    text-align: center;
+    font-weight: lighter;
+    margin: 6%;
+    margin-bottom: 0%;
+    font-size: 40px;
+}
+.custom hr{
+    width: 6%;
+        border-color: #ff6600;
+        margin-left: 46%;
+        margin-top: 2%;
+}
+
+.custom .imp{
+    text-align: left;
+    font-style: italic;
+    color: #848385;
+}
+.custom .imp1 {
+    text-align: center;
+    color: #848385;
+    margin: 2%;
+}
+.custom .imp{
+    background-color: #eae8eb;
+    padding: 3%;
+    border-radius: 5px;
+}
+.custom .name{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.custom .info{
+overflow: hidden;
+text-align: center;
+padding: 20%;
+padding-top: 10%;
+
+}
+.info img{
+margin-left: -15%;
+margin-top: -10%;
+}
+.info .name{
+    font-weight: bold;
+    margin: 0;
+
+    font-size: 1.2em;
+    color: #333;
+}
+.info .role{
+    margin: 0;
+    font-size: 0.9em;
+    color: #888;
+}
+
+.contact .container {
+    width: 80%;
+    margin: auto;
+}
+
+.left-form {
+    float: left;
+    width: 45%;
+    box-sizing: border-box;
+    padding-right: 5%;
+}
+
+.right-form {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.left-form input,
+.right-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.right-form textarea {
+    height: 150px;
+    resize: none;
+
+    border-color: transparent transparent #888 transparent;
+}
+.left-form input{
+    margin-bottom: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.submit-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.submit-btn button {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #fe9c53;
+    color: white;
+    border: none;
+    cursor: pointer; 
+    margin-top: 2%;
+    font-weight:bold;
+}
+.contact h2 {
+    text-align: center;
+    font-weight: lighter;
+    margin: 6%;
+    margin-bottom: 0%;
+    font-size: 40px;
+}
+
+.contact hr {
+    width: 8%;
+    border-color: #ff6600;
+    margin-left: 46%;
+    margin-top: 2%;
+}
+.contact p{
+    text-align: center;
+    color: #848385;
+    margin: 1%;
+    font-style: italic;
+    margin-bottom: 4%;
+    font-size: 0.9em;
+}
+.icons .container{
+    width: 100%;
+    background-color: #121212;
+
+}
+.icons {
+    text-align: center;
+    margin: 5%;
+    font-size: 24px;
+    color: white;
+margin-top: 2%;
+margin-bottom: 2%;
+}
+.icons i{
+    margin: 4%;
+    margin-top: 1%;
+        margin-bottom: 1%;
+}
