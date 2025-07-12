@@ -1,0 +1,637 @@
+/*reset style*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/*global style*/
+.container{
+    width: 80%;
+    margin: auto;
+}
+.d-flex{
+    display: flex;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.space-evenly{
+    justify-content: space-evenly;
+}
+.align-items-center{
+    align-items: center;
+}
+.bg-light{
+    background-color: #F5F7FA;
+}
+.bg-green{
+    background-color: #4CAF4F;
+}
+/*custom style*/ 
+/*nav style*/
+nav{
+    
+    padding: 1% 0;
+}
+nav .logo{
+    gap: 6%;
+}
+nav .logo img{
+    width: 30%;
+    height: 30%;
+}
+nav .logo h4{
+    font-size: 27px;
+    font-weight: bold;
+}
+nav ul{
+
+    flex: 1;
+    margin: 0% 6%;
+}
+nav ul li a{
+    color: black;
+    font-weight: 600;
+}
+nav ul li a:hover{
+    color: #4CAF4F;
+}
+.sign{
+    
+    gap: 10px;
+}
+.sign button{
+    padding: 10px 20px;
+    flex: 1;
+
+}
+button{
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.login{
+    color: #4CAF4F;
+    font-weight: 500;
+    font-size: 14px;
+}
+.signup{
+    color: #F5F7FA;
+    font-weight: 500;
+    font-size: 14px;
+}
+/*end nav style*/
+/*first page style*/
+#first-page{
+    background-color: #F5F7FA;
+}
+.first{
+    padding: 9% 0%;
+}
+.first img{
+
+    width: 20%;
+    height: 20%;
+}
+.first .text h1{
+    color: #4D4D4D;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 74px;
+
+}
+.first .text h3{
+    color: #4CAF4F;
+        font-size: 56px;
+        font-weight: 600;
+        line-height: 74px;
+}
+.first .text p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 3%;
+}
+.first button{
+    padding: 14px 32px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 4%;
+    color: #FFFFFF;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+}
+#first-page .circles{
+    justify-content: center;
+    gap: 8px;
+    padding: 15px;
+}
+#first-page .circles .c-one{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+}
+#first-page .circles .c-two {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+    opacity: 30%;
+}
+#first-page .circles .c-three {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #4CAF4F;
+    opacity: 30%;
+}
+/*end first page style*/
+/*second page*/
+#second-page .second{
+    text-align: center;
+    padding: 3% 0%;
+}
+#second-page .second h3{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #4D4D4D;
+    margin-bottom: 1%;
+}
+#second-page .second p{
+    color: #717171;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 2%;
+}
+#second-page .second .icons img{
+    width: 27px;
+    height: 27px;
+    margin: 2% 4%;
+}
+/*end second page*/
+/*third page*/
+#third-page .third .text-two{
+    text-align: center;
+    margin: 5%;
+}
+#third-page .third .text-two h3{
+    color: #4D4D4D;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 44px;
+}
+#third-page .third .text-two p{
+    color: #717171;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 2%;
+}
+#third-page .community {
+    margin: 6%;
+}
+#third-page .community i{
+    font-size: 24px;
+    margin-bottom: 7%;
+}
+#third-page .community h3{
+    text-align: center;
+}
+#third-page .community p{
+    text-align: center;
+}
+#third-page .community .sq-icon{
+    justify-content: center;
+}
+#third-page .community .square1{
+    background-color: #4CAF4F;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 5px 10px 5px;
+    opacity: 30%;
+    margin-bottom: 7%;
+    
+    align-self: center;
+    
+    
+}
+#third-page .community1 i{
+    margin-right: 0%;
+    display: float;
+    margin-right: -7%;
+}
+#third-page .community .square2{
+    background-color: #4CAF4F;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 5px 10px 5px;
+    opacity: 30%;
+    margin-bottom: 7%;
+    
+    align-self: center;
+    
+    
+}
+#third-page .community2 i{
+    margin-right: 0%;
+    display: float;
+    margin-right: -5%;
+}
+#third-page .community .square3{
+    background-color: #4CAF4F;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px 5px 10px 5px;
+    opacity: 30%;
+    margin-bottom: 7%;
+    
+    align-self: center;
+    
+    
+}
+#third-page .community3 i{
+    margin-right: 0%;
+    display: float;
+    margin-right: -5%;
+}
+.community h3{
+    color: #4D4D4D;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        margin: 2%;
+}
+.community p{
+    color: #717171;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 2%;
+}
+/*end third page*/
+/*fourth page*/
+.forth{
+    padding-top: 3%;
+}
+.fourth img {
+
+    width: 40%;
+    height: 40%;
+    margin: 2%;
+}
+.fourth .text-three h3{
+    color: #4D4D4D;
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 44px;
+        margin: 2%;
+}
+.fourth .text-three p{
+    color: #717171;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        margin: 3%;
+}
+.fourth .text-three button{
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border: none;
+    margin: 3%;
+}
+/*end fourth page*/
+/*fifth page*/
+#fifth-page{
+    background-color: #F5F7FA;
+}
+.fifth{
+    padding: 8% 0%;
+}
+.fifth .text-four h3{
+    color: #4D4D4D;
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 600;
+        margin-bottom: 1%;
+}
+.fifth .text-four h4{
+    color: #4CAF4F;
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 600;
+        margin-bottom: 3%;
+}
+.fifth .text-four p{
+    color: #18191F;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 3%;
+}
+.fifth .icons2{
+    gap: 90px;
+}
+.fifth .icons2 .i-text h5{
+    color: #4D4D4D;
+        font-size: 28px;
+        line-height: 36px;
+        font-weight: 700;
+        margin-bottom: 1%;
+        margin-left: 1%;
+}
+.fifth .icons2 .i-text p{
+    color: #717171;
+        font-size:16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 1%;
+        
+}
+.fifth .icons2 .i-one .i-text p, .fifth .icons2 .i-one .i-text h5{
+    margin-left: 5%;
+
+}
+.fifth .icons2 .i-four .i-text p, .fifth .icons2 .i-four .i-text h5{
+    margin-left: 5%;
+
+}
+.fifth .icons2 .i-two .i-text p, .fifth .icons2 .i-two .i-text h5{
+    margin-left: -15%;
+
+}
+.fifth .icons2 .i-one {
+    margin-bottom: 30%;
+}
+.fifth .icons2 .i-two {
+    margin-bottom: 30%;
+}
+/*end fifth page*/
+/*sixth page*/
+.sixth{
+    padding: 3% 0%;
+}
+.sixth img{
+    width:300px;
+        height:300px;
+        margin: 5% 7%;
+}
+.sixth .text-six h4{
+    color: #4D4D4D;
+        font-size: 36px;
+        line-height: 44px;
+        font-weight: 600;
+        margin-bottom: 1%;
+}
+.sixth .text-six p{
+    color: #717171;
+        font-size: 14px;
+        line-height:20px;
+        font-weight: 400;
+        margin-bottom: 1%;
+}
+.sixth .text-six button {
+    padding: 14px 32px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    border: none;
+    margin: 3%;
+    margin-left: 0%;
+}
+/*end-sixth page*/
+/*seventh page*/
+#seventh-page{
+    background-color: #F5F7FA;
+}
+.seventh{
+    padding: 5% 0;
+}
+.seventh .image{
+    width: 300px;
+    height: 300px;
+    margin: 5% 7%;
+}
+.seventh .text-seven p{
+    color: #717171;
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 500;
+        margin-bottom: 2%;
+}
+.seventh .text-seven h4{
+    color: #4CAF4F;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-bottom: 2%;
+}
+.seventh .icons3{
+    margin: 3%;
+    margin-left: -6%;
+}
+.seventh .icons3 img{
+    width: 30px;
+    height: 30px;
+    
+}
+.seventh .icons3 button{
+    color: #4CAF4F;
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+        line-height: 28px;
+        font-weight: 600;
+        
+    
+}
+/*end seventh*/
+/*eighth style*/
+.eighth{
+    padding: 7% 0%;
+    padding-bottom: 15%;
+}
+.eighth h3, .eighth p{
+    text-align: center;
+}
+.eighth h3{
+    color: #4D4D4D;
+    font-size: 36px;
+        line-height: 44px;
+        font-weight: 600;
+        margin-bottom: 1%;
+}
+.eighth p{
+    color: #717171;
+    font-size: 16px;
+        line-height: 24px;
+        font-weight: 400;
+        margin-bottom: 2%;
+}
+.cards{
+    gap: 30px;
+    justify-content: center;
+    margin-top: 3%;
+    position: relative;
+}
+.cards .c-text{
+    background-color: #F5F7FA;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    width: 30%;
+    height: 50%;
+    
+
+}
+.cards .c-text p{
+    color: #717171;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-bottom: 2%;
+}
+.cards .c-text .arrow-text button{
+    color: #4CAF4F;
+        border: none;
+        background-color: transparent;
+        font-size: 16px;
+        line-height: 28px;
+        font-weight: 600;
+        
+}
+.cards .c-text .arrow-text{
+    justify-content: center;
+    margin: 5% 0%;
+}
+.cards .c-text{
+    margin-left: 2%;
+    margin-top: -7%;
+    box-shadow: 0px 5px 5px 5px rgb(206, 204, 204);
+    position: absolute;
+}
+/*end eighth*/
+/*ninth*/
+#ninth-page{
+    background-color: #F5F7FA;
+}
+.ninth{
+    padding: 7% 0%;
+    text-align: center;
+}
+.ninth h3{
+    color: #263238;
+    font-size: 64px;
+        line-height: 76px;
+        font-weight: 600;
+        
+}
+.ninth button{
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    padding: 14px 32px;
+    margin: 5% 0%;
+    font-size: 16px;
+        line-height: 24px;
+        font-weight: 600;
+}
+.ninth .text-arrow{
+    justify-content: center;
+}
+/*ninth*/
+/*tenth*/
+#tenth-page{
+    background-color: #263238;
+}
+.tenth{
+    padding: 5% 0%;
+}
+.tenth .logo {
+    gap: 6%;
+}
+
+.tenth .logo img {
+    width: 20%;
+    height: 20%;
+}
+
+.tenth .logo h4 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.tenth .logo{
+    margin-bottom: 15%;
+}
+.tenth .logo2 p{
+    color: #F5F7FA;
+    font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        
+}
+.tenth .social{
+    margin: 7% 2% 7% 0%;
+    
+}
+
+.text-ten h5{
+    color: #ffffff;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 600;
+        margin-bottom: 10%;
+}
+.text-ten h6{
+    color: #F5F7FA;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        margin-bottom: 20%;
+}
+.text-ten .support{
+    margin-top: 20%;
+}
+.send{
+    margin-bottom: 13%;
+    position: relative;
+}
+.send h5{
+    color: #ffffff;
+        font-size: 20px;
+        line-height: 28px;
+        font-weight: 800;
+        margin-bottom: 5% ;
+        
+}
+.send h6 {
+    color: #D9DBE1;
+    font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        position: absolute;
+        margin-right: 46%;
+}
+.send .send-icon{
+    position: absolute;
+    margin-left: 80%;
+}
+
+/*tenth*/
