@@ -11,6 +11,9 @@ a{
 ul{
     list-style: none;
 }
+html{
+    scroll-behavior: smooth;
+}
 /*global style*/
 .container{
     width: 80%;
@@ -130,6 +133,7 @@ button{
         font-weight: 500;
         line-height: 24px;
 }
+
 #first-page .circles{
     justify-content: center;
     gap: 8px;
