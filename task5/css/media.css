@@ -1,0 +1,27 @@
+@media ( max-width:768px ){
+    .nav-list ul{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .nav-btn button{
+        display: none;
+    }
+    #navbar{
+        background-size:  100%;
+    }
+    .nav-text{
+        width: 100%;
+    }
+    .nav-text h1{
+        font-weight: 600;
+        font-size: 30px;
+        line-height: 130%;
+    }
+    .nav-text p{
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 120%;
+    }
+}
