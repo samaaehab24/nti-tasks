@@ -1,0 +1,71 @@
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+nav{
+    position: sticky;
+}
+.nav-item a:hover{
+    color:blue;
+
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    
+    
+}
+.dropdown-menu{
+    border-radius: 0;
+    border-top: 2px solid blue;
+    font-size: small;
+    transform: translateX(0);
+        opacity: 0;
+        visibility: hidden;
+        transition: all 2s ease;
+}
+
+
+.nav-item:hover .dropdown-menu {
+    transform: translateX(10px);
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown:hover .dropdown-menu {
+    animation: bounceRight 0.4s ease forwards;
+}
+
+@keyframes bounceRight {
+    0% {
+        transform: translateX(0);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateX(15px);
+        opacity: 0.5;
+    }
+
+    100% {
+        transform: translateX(10px);
+        opacity: 1;
+    }
+}
+
+.carousel-inner img{
+    height: 600px;
+    filter: brightness(0.2);
+}
+.carousel-indicators {
+    flex-direction: column;
+    left: auto;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 0;
+    /* تخلي الزر مربع مش دايرة */
+    background-color:#fff;
+    /* اللون اللي تحبيه */
+}
