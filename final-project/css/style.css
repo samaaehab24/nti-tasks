@@ -59,13 +59,79 @@ nav{
 .carousel-indicators {
     flex-direction: column;
     left: auto;
+    margin-right: 5%;
 }
 
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
     border-radius: 0;
-    /* تخلي الزر مربع مش دايرة */
     background-color:#fff;
-    /* اللون اللي تحبيه */
+    border: 2px solid none;
+    transition: all 0.2s ease;
+    
+}
+.carousel-indicators .active{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.carousel-caption{
+    margin-bottom: 10%;
+    font-family: 'Helvetica Neue', sans-serif;
+}
+/* إخفاء العناصر في الشريحة غير النشطة */
+.carousel-item:not(.active) .my-image-animation,
+.carousel-item:not(.active) .my-heading-animation,
+.carousel-item:not(.active) .my-text-animation,
+.carousel-item:not(.active) .my-button-animation {
+    opacity: 0;
+    transform: translateY(50px);
+    visibility: hidden;
+    transition: none;
+}
+
+/* الشريحة النشطة */
+.carousel-item.active .my-image-animation {
+    animation: fadeInUpSoft 1s ease-out 0.2s forwards;
+    visibility: visible;
+}
+
+.carousel-item.active .my-heading-animation {
+    animation: fadeInUpSoft 1s ease-out 0.4s forwards;
+    visibility: visible;
+}
+
+.carousel-item.active .my-text-animation {
+    animation: fadeInUpSoft 1s ease-out 0.6s forwards;
+    visibility: visible;
+}
+
+.carousel-item.active .my-button-animation {
+    animation: fadeInUpSoft 1s ease-out 0.8s forwards;
+    visibility: visible;
+}
+
+/* Keyframes (الحركات) */
+@keyframes fadeZoomIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes fadeInUpSoft {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
